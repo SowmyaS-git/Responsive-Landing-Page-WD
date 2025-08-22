@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #00bcd4;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #222;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+/* Portfolio */
+.project {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.project a:hover {
+  color: #00bcd4;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+form input, form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form button {
+  background: #2196f3;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #00bcd4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 30px;
+}
